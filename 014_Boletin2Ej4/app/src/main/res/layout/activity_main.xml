@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.trabajo.carlos.a014_boletin2ej4.MainActivity">
+
+    <EditText
+        android:id="@+id/edtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Introduzca el titulo" />
+
+    <EditText
+        android:id="@+id/edtMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Introduzca el mensaje" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdgroup">
+
+        <RadioButton
+            android:id="@+id/rbEditSi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Con EditText" />
+
+        <RadioButton
+            android:id="@+id/rbEditNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sin EditText" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdgroup2">
+
+        <RadioButton
+            android:id="@+id/rbUnBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Un boton" />
+
+        <RadioButton
+            android:id="@+id/rbDosBotones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dos botones" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Crear" />
+
+</LinearLayout>
